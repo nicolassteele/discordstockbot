@@ -18,7 +18,7 @@ public class Main {
             e.printStackTrace();
         }
         jda.getPresence().setStatus(OnlineStatus.DO_NOT_DISTURB);
-        jda.getPresence().setActivity(Activity.playing("Killing Kevin"));
+        jda.getPresence().setActivity(Activity.playing("Pogging"));
 
         jda.addEventListener(new CoinPog());
     }
