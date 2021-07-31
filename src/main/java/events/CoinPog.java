@@ -11,7 +11,7 @@ public class CoinPog extends ListenerAdapter {
             event.getChannel().sendMessage("Hi tuna").queue();
         }
         if(messageSent.equalsIgnoreCase("hi")){
-            event.getChannel().sendMessage(".l.").queue();
+            event.getChannel().sendMessage("hi").queue();
         }
     }
 }
